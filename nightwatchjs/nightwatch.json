@@ -30,12 +30,22 @@
       },
       "desiredCapabilities": {
         "browserName": "chrome",
-        "marionette": true
+        "marionette": true,
+        "chromeOptions": {
+          "args": [
+            "window-size=1600,800"
+          ]
+        }
       }
     },
     "chrome" : {
       "desiredCapabilities": {
-        "browserName": "chrome"
+        "browserName": "chrome",
+        "chromeOptions": {
+          "args": [
+            "window-size=1600,800"
+          ]
+        }
       }
     }
   }
